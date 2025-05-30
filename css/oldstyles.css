@@ -26,17 +26,17 @@ body {
     background-color: #FFFFFF;
 }
 
+
+
+/* styles for desktop
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
-}
+} 
 
-.container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
+
+*/
+
 
 .visually-hidden {
     position: absolute;
@@ -77,7 +77,6 @@ button {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
-    
 }
 
 .container .header-nav {
@@ -183,6 +182,8 @@ button {
 
 /* modul 4 */
 /* ========== /Header ========== */
+
+
 
 /* ========== Hero ========== */
 
@@ -684,7 +685,7 @@ button {
     right: 24px;
     width: 24px;
     height: 24px;
-    border:1px solid rgba(0, 0, 0, 0.1);;
+    border:1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     display: flex;
     justify-content: center;
