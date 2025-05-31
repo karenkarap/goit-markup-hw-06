@@ -190,6 +190,7 @@ button {
 .hero {
     text-align: center;
     padding: 188px 0;
+
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/hero-bg/hero-bg-desktop.jpg);
@@ -265,15 +266,14 @@ button {
     flex-basis: calc((100% - 72px) / 4);
 }
 
-.advantages-subtitle {
-    margin-bottom: 8px;
-}
+
 
 .advantages-list {
     list-style-type: none;
 }
 
 .advantages-subtitle {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -376,7 +376,6 @@ button {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .team-social-links .team-link:hover,
