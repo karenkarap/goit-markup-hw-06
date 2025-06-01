@@ -206,9 +206,6 @@ address {
     margin-bottom: 168px;
 }
 
-/* .overlay-nav-list li:first-child .link {
-    color: #404bbf;
-} */
 
 .overlay-nav-list .link {
     font-weight: 700;
@@ -217,6 +214,10 @@ address {
     letter-spacing: 0.02em;
     color: #2e2f42;
     transition: color var(--main-transition);
+}
+
+.overlay-nav-list li:first-child .link {
+    color: #404bbf;
 }
 
 .overlay-nav-list .link:hover,
@@ -236,6 +237,11 @@ address {
     display: block;
     margin-bottom: 24px;
     transition: color var(--main-transition);
+}
+
+.overlay-contacts-list li:first-child .link {
+    color: #404BBF;
+
 }
 
 .overlay-contacts-list .link:hover,
@@ -1159,7 +1165,7 @@ address {
     border-radius: 4px;
     height: 40px;
     outline: transparent;
-    padding-left: 16px;
+    padding-left: 34px;
     background-color: transparent;
     transition: border-color var(--main-transition);
 }
@@ -1208,6 +1214,8 @@ address {
     transition: border-color var(--main-transition);
 }
 
+    
+
 .modal-textarea:focus {
     border: 1px solid #4d5ae5;
 }
@@ -1217,7 +1225,7 @@ address {
 }
 
 .checkbox-privacy-policy-label {
-    /* display: inline-flex; */
+    display: flex;
     align-items: center;
     font-size: 12px;
     line-height: 1.17;
@@ -1292,4 +1300,11 @@ address {
     }
 }
 /* /Tablet */
+
+@media screen and (min-width: 1158px) {
+    .modal-input {
+        padding-left: 38px;
+    }
+}
+
 /* ========== /Modal ========== */
