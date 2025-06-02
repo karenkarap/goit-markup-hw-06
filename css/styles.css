@@ -1239,6 +1239,7 @@ address {
     align-items: center;
     width: 16px;
     height: 16px;
+    flex-shrink: 0;
     fill: transparent;
     margin-right: 8px;
     border-radius: 2px;
